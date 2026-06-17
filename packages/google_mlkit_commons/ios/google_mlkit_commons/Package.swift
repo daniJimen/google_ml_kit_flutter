@@ -10,7 +10,6 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-commons",
-            type: .dynamic,
             targets: ["google_mlkit_commons"])
     ],
     dependencies: [
