@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-barcode-scanning",
-            type: .framework,
+            type: .dynamic,
             targets: ["google_mlkit_barcode_scanning"])
     ],
     dependencies: [

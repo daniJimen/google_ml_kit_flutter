@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-face-detection",
-            type: .framework,
+            type: .dynamic,
             targets: ["google_mlkit_face_detection"])
     ],
     dependencies: [

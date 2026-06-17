@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-selfie-segmentation",
-            type: .framework,
+            type: .dynamic,
             targets: ["google_mlkit_selfie_segmentation"])
     ],
     dependencies: [

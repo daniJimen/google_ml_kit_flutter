@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-image-labeling",
-            type: .framework,
+            type: .dynamic,
             targets: ["google_mlkit_image_labeling"])
     ],
     dependencies: [
