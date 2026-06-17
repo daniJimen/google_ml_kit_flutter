@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitBarcodeScanningPlugin
       ios:
         pluginClass: GoogleMlKitBarcodeScanningPlugin
+      macos:
+        pluginClass: GoogleMlKitBarcodeScanningPlugin

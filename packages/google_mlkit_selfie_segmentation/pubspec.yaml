@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitSelfieSegmentationPlugin
       ios:
         pluginClass: GoogleMlKitSelfieSegmentationPlugin
+      macos:
+        pluginClass: GoogleMlKitSelfieSegmentationPlugin

@@ -25,3 +25,5 @@ flutter:
         pluginClass: GoogleMlKitLanguageIdPlugin
       ios:
         pluginClass: GoogleMlKitLanguageIdPlugin
+      macos:
+        pluginClass: GoogleMlKitLanguageIdPlugin

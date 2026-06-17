@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitGenaiProofreadingPlugin
       ios:
         pluginClass: GoogleMlKitGenaiProofreadingPlugin
+      macos:
+        pluginClass: GoogleMlKitGenaiProofreadingPlugin

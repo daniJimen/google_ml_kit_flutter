@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitTextRecognitionPlugin
       ios:
         pluginClass: GoogleMlKitTextRecognitionPlugin
+      macos:
+        pluginClass: GoogleMlKitTextRecognitionPlugin

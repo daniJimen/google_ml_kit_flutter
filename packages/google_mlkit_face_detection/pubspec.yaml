@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitFaceDetectionPlugin
       ios:
         pluginClass: GoogleMlKitFaceDetectionPlugin
+      macos:
+        pluginClass: GoogleMlKitFaceDetectionPlugin

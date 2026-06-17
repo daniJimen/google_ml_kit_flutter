@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitGenaiSpeechRecognitionPlugin
       ios:
         pluginClass: GoogleMlKitGenaiSpeechRecognitionPlugin
+      macos:
+        pluginClass: GoogleMlKitGenaiSpeechRecognitionPlugin

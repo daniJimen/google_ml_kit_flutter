@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitGenaiSummarizationPlugin
       ios:
         pluginClass: GoogleMlKitGenaiSummarizationPlugin
+      macos:
+        pluginClass: GoogleMlKitGenaiSummarizationPlugin

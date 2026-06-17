@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitFaceMeshDetectionPlugin
       ios:
         pluginClass: GoogleMlKitFaceMeshDetectionPlugin
+      macos:
+        pluginClass: GoogleMlKitFaceMeshDetectionPlugin

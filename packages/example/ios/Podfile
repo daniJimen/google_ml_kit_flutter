@@ -1,3 +1,12 @@
+# This Podfile is used when building with CocoaPods (legacy mode).
+# When using Swift Package Manager (recommended, Flutter 3.44+ default),
+# this file is NOT used. Instead, dependencies resolve via Package.swift.
+#
+# SPM: Google ML Kit frameworks are downloaded via:
+#   python packages/mlkit_frameworks/setup_frameworks.py
+# For extra text recognition languages, add the corresponding
+# binaryTarget entries to packages/mlkit_frameworks/Package.swift.
+
 platform :ios, '15.5'  # or newer version
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.

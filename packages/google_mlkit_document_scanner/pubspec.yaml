@@ -25,3 +25,5 @@ flutter:
         pluginClass: GoogleMlKitDocumentScannerPlugin
       ios:
         pluginClass: GoogleMlKitDocumentScannerPlugin
+      macos:
+        pluginClass: GoogleMlKitDocumentScannerPlugin

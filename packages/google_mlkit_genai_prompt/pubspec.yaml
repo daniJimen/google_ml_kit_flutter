@@ -26,3 +26,5 @@ flutter:
         pluginClass: GoogleMlKitGenaiPromptPlugin
       ios:
         pluginClass: GoogleMlKitGenaiPromptPlugin
+      macos:
+        pluginClass: GoogleMlKitGenaiPromptPlugin
