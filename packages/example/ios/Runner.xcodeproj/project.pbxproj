@@ -11,6 +11,19 @@
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		78A318202AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 78A3181F2AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage */; };
+		78A318402AECB46A008629B0 /* MLKitBarcodeScanning in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318302AECB46A008629A0 /* MLKitBarcodeScanning */; };
+		78A318412AECB46A008629B1 /* MLKitFaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318312AECB46A008629A1 /* MLKitFaceDetection */; };
+		78A318422AECB46A008629B2 /* MLKitTextRecognition in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318322AECB46A008629A2 /* MLKitTextRecognition */; };
+		78A318432AECB46A008629B3 /* MLKitImageLabeling in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318332AECB46A008629A3 /* MLKitImageLabeling */; };
+		78A318442AECB46A008629B4 /* MLKitImageLabelingCustom in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318342AECB46A008629A4 /* MLKitImageLabelingCustom */; };
+		78A318452AECB46A008629B5 /* MLKitObjectDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318352AECB46A008629A5 /* MLKitObjectDetection */; };
+		78A318462AECB46A008629B6 /* MLKitObjectDetectionCustom in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318362AECB46A008629A6 /* MLKitObjectDetectionCustom */; };
+		78A318472AECB46A008629B7 /* MLKitPoseDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318372AECB46A008629A7 /* MLKitPoseDetection */; };
+		78A318482AECB46A008629B8 /* MLKitPoseDetectionAccurate in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318382AECB46A008629A8 /* MLKitPoseDetectionAccurate */; };
+		78A318492AECB46A008629B9 /* MLKitSegmentationSelfie in Frameworks */ = {isa = PBXBuildFile; productRef = 78A318392AECB46A008629A9 /* MLKitSegmentationSelfie */; };
+		78A3184A2AECB46A008629BA /* MLKitLanguageID in Frameworks */ = {isa = PBXBuildFile; productRef = 78A3183A2AECB46A008629AA /* MLKitLanguageID */; };
+		78A3184B2AECB46A008629BB /* MLKitTranslate in Frameworks */ = {isa = PBXBuildFile; productRef = 78A3183B2AECB46A008629AB /* MLKitTranslate */; };
+		78A3184C2AECB46A008629BC /* MLKitSmartReply in Frameworks */ = {isa = PBXBuildFile; productRef = 78A3183C2AECB46A008629AC /* MLKitSmartReply */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
@@ -53,6 +66,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A318202AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage in Frameworks */,
+				78A318402AECB46A008629B0 /* MLKitBarcodeScanning in Frameworks */,
+				78A318412AECB46A008629B1 /* MLKitFaceDetection in Frameworks */,
+				78A318422AECB46A008629B2 /* MLKitTextRecognition in Frameworks */,
+				78A318432AECB46A008629B3 /* MLKitImageLabeling in Frameworks */,
+				78A318442AECB46A008629B4 /* MLKitImageLabelingCustom in Frameworks */,
+				78A318452AECB46A008629B5 /* MLKitObjectDetection in Frameworks */,
+				78A318462AECB46A008629B6 /* MLKitObjectDetectionCustom in Frameworks */,
+				78A318472AECB46A008629B7 /* MLKitPoseDetection in Frameworks */,
+				78A318482AECB46A008629B8 /* MLKitPoseDetectionAccurate in Frameworks */,
+				78A318492AECB46A008629B9 /* MLKitSegmentationSelfie in Frameworks */,
+				78A3184A2AECB46A008629BA /* MLKitLanguageID in Frameworks */,
+				78A3184B2AECB46A008629BB /* MLKitTranslate in Frameworks */,
+				78A3184C2AECB46A008629BC /* MLKitSmartReply in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
