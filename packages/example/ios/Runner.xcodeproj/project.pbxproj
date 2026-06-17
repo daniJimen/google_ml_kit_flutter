@@ -126,6 +126,19 @@
 			name = Runner;
 			packageProductDependencies = (
 				78A3181F2AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage */,
+				78A318302AECB46A008629A0 /* MLKitBarcodeScanning */,
+				78A318312AECB46A008629A1 /* MLKitFaceDetection */,
+				78A318322AECB46A008629A2 /* MLKitTextRecognition */,
+				78A318332AECB46A008629A3 /* MLKitImageLabeling */,
+				78A318342AECB46A008629A4 /* MLKitImageLabelingCustom */,
+				78A318352AECB46A008629A5 /* MLKitObjectDetection */,
+				78A318362AECB46A008629A6 /* MLKitObjectDetectionCustom */,
+				78A318372AECB46A008629A7 /* MLKitPoseDetection */,
+				78A318382AECB46A008629A8 /* MLKitPoseDetectionAccurate */,
+				78A318392AECB46A008629A9 /* MLKitSegmentationSelfie */,
+				78A3183A2AECB46A008629AA /* MLKitLanguageID */,
+				78A3183B2AECB46A008629AB /* MLKitTranslate */,
+				78A3183C2AECB46A008629AC /* MLKitSmartReply */,
 			);
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
@@ -158,6 +171,7 @@
 			mainGroup = 97C146E51CF9000F007C117D;
 			packageReferences = (
 				781AD8BC2B33823900A9FFBB /* XCLocalSwiftPackageReference "FlutterGeneratedPluginSwiftPackage" */,
+				781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */,
 			);
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
@@ -537,10 +551,86 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/d-date/google-mlkit-swiftpm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		78A3181F2AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FlutterGeneratedPluginSwiftPackage;
+		};
+		78A318302AECB46A008629A0 /* MLKitBarcodeScanning */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitBarcodeScanning;
+		};
+		78A318312AECB46A008629A1 /* MLKitFaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitFaceDetection;
+		};
+		78A318322AECB46A008629A2 /* MLKitTextRecognition */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitTextRecognition;
+		};
+		78A318332AECB46A008629A3 /* MLKitImageLabeling */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitImageLabeling;
+		};
+		78A318342AECB46A008629A4 /* MLKitImageLabelingCustom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitImageLabelingCustom;
+		};
+		78A318352AECB46A008629A5 /* MLKitObjectDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitObjectDetection;
+		};
+		78A318362AECB46A008629A6 /* MLKitObjectDetectionCustom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitObjectDetectionCustom;
+		};
+		78A318372AECB46A008629A7 /* MLKitPoseDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitPoseDetection;
+		};
+		78A318382AECB46A008629A8 /* MLKitPoseDetectionAccurate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitPoseDetectionAccurate;
+		};
+		78A318392AECB46A008629A9 /* MLKitSegmentationSelfie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitSegmentationSelfie;
+		};
+		78A3183A2AECB46A008629AA /* MLKitLanguageID */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitLanguageID;
+		};
+		78A3183B2AECB46A008629AB /* MLKitTranslate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitTranslate;
+		};
+		78A3183C2AECB46A008629AC /* MLKitSmartReply */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 781AD8BD2B33823A00A9FFBB /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitSmartReply;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
