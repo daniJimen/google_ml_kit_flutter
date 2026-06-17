@@ -33,6 +33,7 @@ let package = Package(
                 // ML Kit will depend on at least one vision plugin that already brings it in.
                 .product(name: "MLKitObjectDetection", package: "google-mlkit-swiftpm")
             ],
+            linkerSettings: [.unsafeFlags(["-ObjC", "-all_load"])],
             path: "Sources/google_mlkit_commons"
         )
     ]
