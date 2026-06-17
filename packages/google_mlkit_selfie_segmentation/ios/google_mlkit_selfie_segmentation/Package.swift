@@ -30,8 +30,8 @@ let package = Package(
                 // derives the package identity from the directory name, not the `name` field.
                 .product(name: "google-mlkit-commons", package: "google_mlkit_commons")
             ],
-            linkerSettings: [.unsafeFlags(["-ObjC", "-all_load"])],
-            path: "Sources/google_mlkit_selfie_segmentation"
+            path: "Sources/google_mlkit_selfie_segmentation",
+            linkerSettings: [.unsafeFlags(["-ObjC", "-all_load"])]
         )
     ]
 )
