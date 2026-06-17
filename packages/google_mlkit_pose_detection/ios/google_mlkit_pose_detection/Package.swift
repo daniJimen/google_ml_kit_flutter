@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-pose-detection",
+            type: .framework,
             targets: ["google_mlkit_pose_detection"])
     ],
     dependencies: [

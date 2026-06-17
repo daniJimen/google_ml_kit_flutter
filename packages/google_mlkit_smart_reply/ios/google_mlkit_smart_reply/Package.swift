@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-smart-reply",
+            type: .framework,
             targets: ["google_mlkit_smart_reply"])
     ],
     dependencies: [

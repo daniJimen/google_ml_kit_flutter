@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-text-recognition",
+            type: .framework,
             targets: ["google_mlkit_text_recognition"])
     ],
     dependencies: [

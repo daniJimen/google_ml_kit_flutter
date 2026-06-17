@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "google-mlkit-language-id",
+            type: .framework,
             targets: ["google_mlkit_language_id"])
     ],
     dependencies: [
